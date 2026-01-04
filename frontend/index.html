@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Serverless Image Processing</title>
+    </head>
+    <body>
+        <h2>Serverless Image Processing Demo</h2>
+
+        <input type="file" id="fileInput" accept="image/*" />
+        <br /><br />
+
+        <button onclick="uploadImage()">Upload Image</button>
+
+        <h3>Original Image Preview</h3>
+        <img id="preview" width="300" />
+
+        <h3>Status</h3>
+        <p id="status"></p>
+
+        <h3>Processed Images</h3>
+        <ul>
+            <li><a id="resizedLink" target="_blank">Resized Image</a></li>
+            <li><a id="thumbnailLink" target="_blank">Thumbnail Image</a></li>
+        </ul>
+
+        <!-- AWS SDK -->
+        <script src="https://sdk.amazonaws.com/js/aws-sdk-2.1500.0.min.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>
