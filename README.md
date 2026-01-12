@@ -113,7 +113,7 @@ This system is intentionally kept **simple, academic-friendly, and viva-ready**.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/githubabhay2003/btech-minor-project-serverless-image-processing.git
+git clone https://github.com/vaibhav208/btech-minor-project-serverless-image-processing.git
 cd btech-minor-project-serverless-image-processing
 ```
 ### 2. Configure AWS Credentials
@@ -244,8 +244,8 @@ This project is provided for **educational purposes only**.
 
 ## Author
 
-**Abhay Kumar Saini**
+**Vaibhav Sarkar**
 *B.Tech Student*
 *Minor Project – Cloud Computing & DevOps*
 
-* **GitHub:** [https://github.com/githubabhay2003](https://github.com/githubabhay2003)
+* **GitHub:** [https://github.com/vaibhav208](https://github.com/vaibhav208)
